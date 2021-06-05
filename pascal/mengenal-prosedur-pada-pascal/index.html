@@ -13,7 +13,7 @@ Kegunaan prosedur :
 program Latihan_prosedur; uses crt; // awal prosedur procedure cetak(x:Integer); begin writeln(&#39;nilai x = &#39;, x); end; // akhir prosedur begin clrscr; cetak(100); // untuk memanggil prosedur cetak readln end.">
 <meta itemprop="datePublished" content="2021-06-05T11:02:38+08:00" />
 <meta itemprop="dateModified" content="2021-06-05T11:02:38+08:00" />
-<meta itemprop="wordCount" content="258">
+<meta itemprop="wordCount" content="256">
 
 
 
@@ -210,7 +210,7 @@ begin
 	writeln('nilai x = ', x);
 end;
 // akhir prosedur
-</code></pre><p>penulisan prosedur  diawali dengan anam <strong>procedure</strong> dan diikuti dengan nama prosedur. Nama prosedur ini bebas diberi nama apa, kecuali nama-nama variabel yang sudah dipakai oleh pascal. pada program di atas <strong>procedur cetak(x: integer)</strong>.  x:integer merupakan parameter untuk menampung data, data x dapat diimput oleh user atau pada saat kita memanggil prosedur pada program untama.</p>
+</code></pre><p>penulisan prosedur  diawali dengan nama <strong>procedure</strong> dan diikuti dengan nama prosedur. Nama prosedur memilih dengan nama apapu, kecuali variabel yang sudah dipakai oleh pascal. pada program di atas <strong>procedure cetak(x: integer)</strong>.  <strong>x:integer</strong> merupakan parameter untuk menampung data, data x dapat diimput oleh user atau pada saat kita memanggil prosedur pada program untama.</p>
 <p>bagian program utama:</p>
 <pre><code class="language-pascal" data-lang="pascal">begin
 	clrscr;
@@ -218,13 +218,13 @@ end;
 
 	readln
 end.
-</code></pre><p>prosedur cetak ditak akan dieksekusi selama belum dipanggil oleh program utama. Seperti pada statment <strong>cetak(100)</strong> bergungsi untuk memanggil prosedur cetak dengan mengirimkan data yakni angka 100.
+</code></pre><p>prosedur cetak tidak akan dieksekusi selama belum dipanggil oleh program utama. Seperti pada statment <strong>cetak(100)</strong> berfungsi untuk memanggil prosedur cetak dengan mengirimkan data yakni angka 100.
 pada prosedur cetak angka <strong>100 ditampung oleh x</strong>. selanjutnya:</p>
-<pre><code>writeln('nilai x = ', x);
-</code></pre><p>statment tersebut akan mencetak ke layar <strong>nilai x = 100</strong>
+<p><code>writeln('nilai x = ', x);</code></p>
+<p>statment tersebut akan mencetak ke layar <strong>nilai x = 100</strong>
 sehingga output yang  dihasilkan adalah:</p>
-<pre><code>nilai x = 100
-</code></pre><p>selamat belajar dan semangat ^_^</p>
+<p><code>nilai x = 100</code></p>
+<p>selamat belajar dan semangat ^_^</p>
 
                                 </div>
                                     <div class="col-sm-12 my-3 d-flex-wraper pl-0">
